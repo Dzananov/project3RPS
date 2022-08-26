@@ -1,31 +1,33 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, paper and scissor game
+This is the classical game of rock, paper, scissor. The user plays a game against the computer in the usual way. User can beat computer by playing scissor against paper, paper against rock and rock against scissors.
 
-Welcome Dzananov,
+## How to play
+User can choose to write either rock, paper and scissor and the computer will randomly choose an answer at the same time. As mentioned before: scissor beats paper, paper beats rock and rock beats scissor.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+## Features
 
-## Reminders
+### Existing features
+* User can only choose between rock, scissor and paper or a message will appear telling the user to choose again.
+* Computer chooses random between the options
+* User input
+* User can not see what computer will randomly choose before the user makes his/hers choise
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+### Future features
+* Make a scoreboard 
+* Make the player beeing able to choose to play "Best of three"
+* User being able to 'end game'
 
-## Creating the Heroku app
+## Data Model
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+## Testing
+* Testing in the PEP8 Online check, came back without errors
+* Tested in code Instution herouk app
 
-1. `heroku/python`
-2. `heroku/nodejs`
+### Bugs
+* When I tried my code i got an error saying index error. I had forgotten to put the [] around the option list
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+### Unfixed Bugs
+* No unfixed bugs
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+## Validation
+* PEP8: No errors returned
