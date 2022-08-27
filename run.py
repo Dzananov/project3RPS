@@ -5,15 +5,9 @@ options = ["rock", "scissor", "paper"]
 
 def choose_option():
     """finding out user choise"""
-    user_choise = input("Choose your answer: ")
-    if user_choise in ["rock"]:
-        user_choise = "rock"
-    elif user_choise in ["scissor"]:
-        user_choise = "scissor"
-    elif user_choise in ["paper"]:
-        user_choise = "paper"
-    else:
-        print("wrong input")
+    user_choise = input("Choose your answer(rock, scissor, paper):\n")
+    if user_choise not in options:
+        print("Not an option!")
         choose_option()
     return user_choise
 
@@ -47,3 +41,4 @@ while True:
             print("Rock smashes scissors! You win")
         else:
             print("paper covers rock! You lose.")
+

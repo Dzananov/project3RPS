@@ -1,7 +1,7 @@
 # Rock, paper and scissor game
 This is the classical game of rock, paper, scissor. The user plays a game against the computer in the usual way. User can beat computer by playing scissor against paper, paper against rock and rock against scissors.
 
-## How to play
+## User Stories
 User can choose to write either rock, paper and scissor and the computer will randomly choose an answer at the same time. As mentioned before: scissor beats paper, paper beats rock and rock beats scissor.
 
 ## Features
@@ -17,7 +17,7 @@ User can choose to write either rock, paper and scissor and the computer will ra
 * Make the player beeing able to choose to play "Best of three"
 * User being able to 'end game'
 
-## Data Model
+## Charts
 
 ## Testing
 * Testing in the PEP8 Online check, came back without errors
